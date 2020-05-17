@@ -1323,6 +1323,7 @@ input[type="email"], input[type="number"], input[type="search"], input[type="tex
 	border-radius: 0;
 	outline: none;
 }
+
 textarea {
 	min-height: 250px;
 }
