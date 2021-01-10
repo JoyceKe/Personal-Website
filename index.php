@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property='og:title' content='Joyce Ke'/>
-  <meta property='og:image' content='https://joyceke.com/img/projects/profile.png'/>
-  <meta property='og:description' content='I am a first-year mechatronics engineering student at the University of Waterloo, expecting to graduate in 2024.  I strive to craft elegant solutions that makes a big impact.'/>
+  <meta property='og:image' content='https://joyceke.com/img/pictures/profile.png'/>
+  <meta property='og:description' content='I am a mechatronics engineering student at the University of Waterloo, expecting to graduate in 2024. I strive to craft elegant solutions that makes a big impact.'/>
   <meta property='og:url' content='https://joyceke.com' />
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
@@ -37,7 +37,7 @@
           <li><a class="smoothscroll" href="#header">Home</a></li>
           <li><a class="smoothscroll" href="#about">About</a></li>
           <li><a class="smoothscroll" href="#skills">Skills</a></li>
-          <li><a class="smoothscroll" href="#experience">Resume</a></li>
+          <li><a class="smoothscroll" href="#experience">Experience</a></li>
           <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
           <li><a class="smoothscroll" href="#contact">Contact</a></li>
         </ul>
@@ -48,11 +48,12 @@
   <div class="title">
     <div class="smallsep heading"></div>
     <h1 class="heading"> JOYCE KE</h1>
-    <h2>
+    <h2 class="heading">
       <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, I am a developer.", "I am an engineer.", "I am a coffee lover.", "I am a problem solver." ]'>
         <span class="wrap"></span>
       </a>
     </h2>
+    <div class="smallsep heading"></div>
     <a class="smoothscroll" href="#about">
     <div class="mouse">
       <div class="wheel"></div>
@@ -72,17 +73,18 @@
     <div class="row">
       <h1>About</h1>
       <div class="block"></div>
-      <img class="profile" alt="" src="img/projects/profile.png">
+      <img class="profile" alt="" src="img/pictures/profile.png">
       <br>
       <br>
       <div class="row">
         <div class="one-third column">
           <h3>Who Am I?</h3>
-          <p>Hi, I am a first-year mechatronics engineering student at the University of Waterloo, expecting to graduate in 2024.  I strive to craft elegant solutions that makes a big impact.</p>
+          <p>Hi, I am a mechatronics engineering student at the University of Waterloo, expecting to graduate in 2024.  I strive to craft elegant solutions that makes a big impact.</p>
         </div>
         <div class="one-third column">
           <h3>What Can I Do?</h3>
-          <p>I have experience working in front-end, back-end, and DevOps, but am not afraid to try new things and always love a challenge.</p>
+          <p>I enjoy working with both software and hardware. I have experience with cloud, web and application development, as well as microcontrollers and circuit design. 
+            <br>But if there's something I haven't done before, that's alright! I'm always looking for something new to learn and I always love a challenge!</p>
         </div>
         <div class="one-third column">
           <h3>More About Me</h3>
@@ -101,11 +103,11 @@
     <div class="row">
       <h1>Skills</h1>
       <div class="block"></div>
-      <svg class="chart"></svg>
+      <!-- <svg class="chart"></svg> -->
       <br>
       <div class="row">
         <div class="three columns">
-          <h3><font color=#907dda>Back-End</font></h3>
+          <h3><font color=#907dda>Languages</font></h3>
             <div class="progressBar">
               <h4>C++/Arduino</h4>
               <div class="progressBarContainer">
@@ -124,9 +126,6 @@
                 <div class="progressBarValue value-30"></div>
               </div>
             </div>
-        </div>
-        <div class="three columns">
-          <h3><font color=#dd1f97>Front-End</font></h3>
             <div class="progressBar">
               <h4>HTML</h4>
               <div class="progressBarContainer">
@@ -142,45 +141,90 @@
             <div class="progressBar">
               <h4>Javascript</h4>
               <div class="progressBarContainer">
-                <div class="progressBarValue value-35"></div>
+                <div class="progressBarValue value-65"></div>
+              </div>
+            </div>
+            <div class="progressBar">
+              <h4>Shell scripts</h4>
+              <div class="progressBarContainer">
+                <div class="progressBarValue value-85"></div>
               </div>
             </div>
         </div>
         <div class="three columns">
-          <h3><font color='limegreen'>DevOps</font></h3>
-            <div class="progressBar">
-              <h4>Git/GitHub</h4>
-              <div class="progressBarContainer">
-                <div class="progressBarValue value-90"></div>
-              </div>
+          <h3><font color=#dd1f97>Software</font></h3>
+          <div class="progressBar">
+            <h4>Git/GitHub</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-95"></div>
             </div>
-            <div class="progressBar">
-              <h4>Jenkins</h4>
-              <div class="progressBarContainer">
-                <div class="progressBarValue value-80"></div>
-              </div>
+          </div>
+          <div class="progressBar">
+            <h4>Jenkins</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-90"></div>
             </div>
-            <div class="progressBar">
-              <h4>UrbanCode Deploy</h4>
-              <div class="progressBarContainer">
-                <div class="progressBarValue value-80"></div>
-              </div>
+          </div>
+          <div class="progressBar">
+            <h4>UrbanCode Deploy</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-80"></div>
             </div>
-            <div class="progressBar">
-              <h4>HashiCorp Vault</h4>
-              <div class="progressBarContainer">
-                <div class="progressBarValue value-80"></div>
-              </div>
+          </div>
+          <div class="progressBar">
+            <h4>Dynatrace</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-80"></div>
             </div>
-            <div class="progressBar">
-              <h4>Apigee</h4>
-              <div class="progressBarContainer">
-                <div class="progressBarValue value-80"></div>
-              </div>
+          </div>
+          <div class="progressBar">
+            <h4>Splunk</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-85"></div>
             </div>
+          </div>
+          <div class="progressBar">
+            <h4>Docker</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-80"></div>
+            </div>
+          </div>
+          <div class="progressBar">
+            <h4>VMware Workstation Pro</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-90"></div>
+            </div>
+          </div>
         </div>
         <div class="three columns">
-          <h3><font color=#00c7e7>Cloud</font></h3>
+          <h3><font color='limegreen'>Electrical</font></h3>
+          <div class="progressBar">
+            <h4>Arduino microcontroller</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-70"></div>
+            </div>
+          </div>
+          <div class="progressBar">
+            <h4>KiCAD</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-70"></div>
+            </div>
+          </div>
+          <div class="progressBar">
+            <h4>Soldering</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-70"></div>
+            </div>
+          </div>
+          <div class="progressBar">
+            <h4>Circuit Design</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-50"></div>
+            </div>
+          </div>
+        </div>
+        <div class="three columns">
+          <h3><font color=#00c7e7>Other</font></h3>
             <div class="progressBar">
               <h4>Red Hat Openshift Container Platform</h4>
               <div class="progressBarContainer">
@@ -189,6 +233,24 @@
             </div>
             <div class="progressBar">
               <h4>Pivotal Cloud Foundry</h4>
+              <div class="progressBarContainer">
+                <div class="progressBarValue value-55"></div>
+              </div>
+            </div>
+            <div class="progressBar">
+              <h4>Firebase</h4>
+              <div class="progressBarContainer">
+                <div class="progressBarValue value-65"></div>
+              </div>
+            </div>
+            <div class="progressBar">
+              <h4>Spring Boot</h4>
+              <div class="progressBarContainer">
+                <div class="progressBarValue value-55"></div>
+              </div>
+            </div>
+            <div class="progressBar">
+              <h4>React</h4>
               <div class="progressBarContainer">
                 <div class="progressBarValue value-55"></div>
               </div>
@@ -203,17 +265,17 @@
 
 <section id="experience">
   <div class="container">
-    <h1>Resume</h1>
+    <h1>Experience</h1>
     <div class="block"></div>
     <section class="resume">
-      <div class="content">
+      <!-- <div class="content">
         <a href="Joyce Resume.pdf" target="_blank">
           <div class="btn-resume">
             <i class="fa fa-download fa-2x" aria-hidden="true"></i>
             <span>Download my resume<span>
           </div>
         </a>
-      </div>
+      </div> -->
     </section>
     <div class=timeline-holder>
          
@@ -234,7 +296,7 @@
         <span></span>
         <span class=timeline-date>Jun 2019 - Aug 2019</span>
         <div class='content right'>
-          <h3>Mechanical Engineer</h3>
+          <h3>Mechanical Engineering Intern</h3>
           <a>ProWise Engineering Inc. </a>
           <p>•	Created, modified, and revised mechanical drawings (i.e., plumbing, HVAC, etc.) using AutoCAD<br>
             •	Researched and provided equipment model recommendations based on required specifications to clients<br>
@@ -256,11 +318,35 @@
             •	Created 7 BPMN architectural diagrams to keep track of and drive team’s progress
             </p>
         </div>
-      </div>      
+      </div>  
+      <div class=timeline-item>
+        <div class="timeline-img"></div>
+        <span></span>
+        <span class=timeline-date>Sept 2020 – Dec 2020</span>
+        <div class='content right'>
+          <h3>Software Analyst/Developer</h3>
+          <a>Telus</a>
+          <p>•	Researched and set up a local OpenShift environment using a CentOS 7 minimal ISO and wildcard DNS and created detailed documentation for team<br>
+            •	Configured a MySQL active-active cluster for a web app as PoC project<br>
+            •	Completed a Java Spring Boot microservice and debugged existing errors<br>            
+            </p>
+        </div>
+      </div>
+      <div class=timeline-item>
+        <div class="timeline-img"></div>
+        <span></span>
+        <span class=timeline-date>Oct 2020 – Present</span>
+        <div class='content left'>
+          <h3>Software Engineer</h3>
+          <a>Stealth Startup</a>
+          <p>•	Developed a React web app and configured connection to MongoDB<br>
+            •	Created Python scripts and scheduled execution with cron on Google Cloud<br>            
+            </p>
+        </div>
+      </div>          
     </div>
   </div>
 </section>
-
 
 <!-- Portfolio Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
@@ -286,7 +372,7 @@
         <div class="col project project--hover-2 other">
           <div data-toggle="modal" data-target="#projectA">
             <div class="project__img-holder">
-              <img src="img/projects/UWaterloo.png" alt="" class="project__img">
+              <img src="img/pictures/UWaterloo.png" alt="" class="project__img">
               <div class="project__overlay">
               </div>
               <div class="project__description">
@@ -305,7 +391,7 @@
           <div class="modal-body">
             <div id="projectAsel" class="carousel slide project-slide" data-interval="false">
               <div class="carousel-inner">
-                <div class="item active"> <img src="img/projects/UWaterloo.png" alt="item1">
+                <div class="item active"> <img src="img/pictures/UWaterloo.png" alt="item1">
                 </div>
               </div>
             </div>
@@ -329,7 +415,7 @@
     <div class="col project project--hover-2 Extracurriculars">
       <div data-toggle="modal" data-target="#projectB">
         <div class="project__img-holder">
-          <img src="img/projects/VisionExchange.png" alt="" class="project__img">
+          <img src="img/pictures/VisionExchange.png" alt="" class="project__img">
           <div class="project__overlay">
           </div>
           <div class="project__description">
@@ -348,7 +434,7 @@
           <div class="modal-body">
             <div id="projectBsel" class="carousel slide project-slide" data-interval="false">
               <div class="carousel-inner">
-                <div class="item active"> <img src="img/projects/VisionExchange.png" alt="item1">
+                <div class="item active"> <img src="img/pictures/VisionExchange.png" alt="item1">
                 </div>
               </div>
             </div>
@@ -370,7 +456,7 @@
     <div class="col project project--hover-2 projects">
       <div data-toggle="modal" data-target="#projectC">
         <div class="project__img-holder">
-          <img src="img/projects/myStocks.png" alt="" class="project__img">
+          <img src="img/pictures/myStocks.png" alt="" class="project__img">
           <div class="project__overlay">
           </div>
           <div class="project__description">
@@ -389,7 +475,7 @@
           <div class="modal-body">
             <div id="projectCsel" class="carousel slide project-slide" data-interval="false">
               <div class="carousel-inner">
-                <div class="item active"> <img src="img/projects/myStocks.png" alt="item1">
+                <div class="item active"> <img src="img/pictures/myStocks.png" alt="item1">
                 </div>             
               </div>
             </div>
@@ -415,7 +501,7 @@
     <div class="col project project--hover-2 extracurriculars">
       <div  data-toggle="modal" data-target="#projectD">
         <div class="project__img-holder">
-          <img src="img/projects/SchulichLeaderScholarship.png" alt="" class="project__img">
+          <img src="img/pictures/SchulichLeaderScholarship.png" alt="" class="project__img">
           <div class="project__overlay">
           </div>
           <div class="project__description">
@@ -434,7 +520,7 @@
           <div class="modal-body">
             <div id="projectDsel" class="carousel slide project-slide" data-interval="false">
               <div class="carousel-inner">
-                <div class="item active"> <img src="img/projects/SchulichLeaderScholarship.png" alt="item1">
+                <div class="item active"> <img src="img/pictures/SchulichLeaderScholarship.png" alt="item1">
                 </div>
               </div>
             </div>
@@ -452,16 +538,15 @@
       </div>
     </div>
     <!-- end project -->
-
-    <div class="col project project--hover-2 extracurriculars">
+    <div class="col project project--hover-2 projects">
       <div  data-toggle="modal" data-target="#projectE">
         <div class="project__img-holder">
-          <img src="img/projects/Deca.png" alt="" class="project__img">
+          <img src="img/pictures/Netflix-N-Chill.PNG" alt="" class="project__img">
           <div class="project__overlay">
           </div>
           <div class="project__description">
-             <h3 class="project__title">DECA</h3>
-             <span class="project__category">President</span>
+             <h3 class="project__title">HackTheU</h3>
+             <span class="project__category">Winner</span>
           </div>
         </div>
       </div>
@@ -475,29 +560,53 @@
           <div class="modal-body">
             <div id="projectEsel" class="carousel slide project-slide" data-interval="false">
               <div class="carousel-inner">
-                <div class="item active"> <img src="img/projects/Deca.png" alt="item1">
+                <div class="item active"> <img src="img/pictures/Netflix-N-Chill.png" alt="item1">
                 </div>
+                <div class="item"><img src="img/pictures/Netflix-N-Chill-2.png" alt="item2">
+                </div>
+                <div class="item"><img src="img/pictures/Netflix-N-Chill-3.png" alt="item3">
+                </div>
+                <div class="item"><img src="img/pictures/Netflix-N-Chill-4.png" alt="item4">
+                </div>
+                <ol class="carousel-indicators">
+                  <li class="active" data-slide-to="0" data-target="#projectEsel">
+                    <img alt="" src="img/pictures/Netflix-N-Chill.png">
+                  </li>
+                  <li class="" data-slide-to="1" data-target="#projectEsel">
+                    <img alt="" src="img/pictures/Netflix-N-Chill-2.png">
+                  </li>
+                  <li class="" data-slide-to="2" data-target="#projectEsel">
+                      <img alt="" src="img/pictures/Netflix-N-Chill-3.png">
+                  </li>
+                  <li class="" data-slide-to="2" data-target="#projectEsel">
+                    <img alt="" src="img/pictures/Netflix-N-Chill-4.png">
+                </li>
+                </ol>
               </div>
+              <a class="left carousel-control" href="#projectEsel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a>
+              <a class="right carousel-control" href="#projectEsel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
             <div id="carouselHeader">
-              <h3>DECA</h3></div>
+              <h3 style="margin-top: 1.5rem;">Netflix-N-Chill</h3></div>
             <div id="info">
-              <p>I have won 9 Regional awards and 7 Provincial awards including twice as Provincial Finalist.</p>
-              <p>As president, I helped set a new school record for the highest rate of DECA Provincials qualification at 90%.</p>
+              <p>A social media web app paired with a chrome extension that allows movie lovers to connect. Once a user registers an account, 
+                the app stores the user's information in Firebase along with the user's Netflix history and geolocation collected by the chrome extension. A python algorithm then uses the data
+              to calculate best matches for each user and pushes results back to Firebase.</p>
             </div>
           </div>
           <div class="modal-footer">
-            <button onclick="window.open('https://deca.ca/','_blank')" class="btn-sm close" type="button" data-dismiss="modal">Learn more</button>
+            <button onclick="window.open('https://youtu.be/2PzHikI8NDM','_blank')" class="btn-sm close" type="button" data-dismiss="modal">Learn more</button>
           </div>
         </div>
       </div>
     </div>
+
     <!-- end project -->
 
     <div class="col project project--hover-2 other">
       <div  data-toggle="modal" data-target="#projectF">
         <div class="project__img-holder">
-          <img src="img/projects/RedHat.png" alt="" class="project__img">
+          <img src="img/pictures/RedHat.png" alt="" class="project__img">
           <div class="project__overlay">
           </div>
           <div class="project__description">
@@ -516,7 +625,7 @@
           <div class="modal-body">
             <div id="projectFsel" class="carousel slide project-slide" data-interval="false">
               <div class="carousel-inner">
-                <div class="item active"> <img src="img/projects/RedHat.png" alt="item1">
+                <div class="item active"> <img src="img/pictures/RedHat.png" alt="item1">
                 </div>
               </div>
             </div>
@@ -539,7 +648,7 @@
     <div class="col project project--hover-2 interests">
       <div  data-toggle="modal" data-target="#projectG">
         <div class="project__img-holder">
-          <img src="img/projects/travelling.png" alt="" class="project__img">
+          <img src="img/pictures/travelling.png" alt="" class="project__img">
           <div class="project__overlay">
           </div>
           <div class="project__description">
@@ -558,7 +667,7 @@
           <div class="modal-body">
             <div id="projectGsel" class="carousel slide project-slide" data-interval="false">
               <div class="carousel-inner">
-                <div class="item active"> <img src="img/projects/travelling.png" alt="item1">
+                <div class="item active"> <img src="img/pictures/travelling.png" alt="item1">
                 </div>
               </div>
             </div>
@@ -580,7 +689,7 @@
     <div class="col project project--hover-2 projects">
       <div  data-toggle="modal" data-target="#projectH">
         <div class="project__img-holder">
-          <img src="img/projects/Good Doggo.png" alt="" class="project__img">
+          <img src="img/pictures/Good Doggo 2.png" alt="" class="project__img">
           <div class="project__overlay">
           </div>
           <div class="project__description">
@@ -599,25 +708,23 @@
           <div class="modal-body">
             <div id="projectHsel" class="carousel slide project-slide" data-interval="false">
               <div class="carousel-inner">
-                <div class="item active"> <img src="img/projects/Good Doggo.png" alt="item1">
-                </div>
-                <div class="item"><img src="img/projects/Good Doggo 2.png" alt="item2">
+                <div class="item active"> <img src="img/pictures/Good Doggo 2.png" alt="item1">
                 </div>
                 <div class="item center"> 
                   <video class="img" width="100%" height="425" controls>
-                  <source src="img/projects/ipv-C589FEAD-2E6E-44A2-8416-89436C9B4F06 (1).mp4" type="video/mp4">
+                  <source src="img/pictures/ipv-C589FEAD-2E6E-44A2-8416-89436C9B4F06 (1).mp4" type="video/mp4">
                   Your browser does not support the video tag.
                   </video>
                 </div>
                 <ol class="carousel-indicators">
                   <li class="active" data-slide-to="0" data-target="#projectHsel">
-                    <img alt="" src="img/projects/Good Doggo.png">
+                    <img alt="" src="img/pictures/Good Doggo.png">
                   </li>
                   <li class="" data-slide-to="1" data-target="#projectHsel">
-                    <img alt="" src="img/projects/Good Doggo 2.png">
+                    <img alt="" src="img/pictures/Good Doggo 2.png">
                   </li>
                   <li class="" data-slide-to="2" data-target="#projectHsel">
-                      <img alt="" src="img/projects/video icon.png">
+                      <img alt="" src="img/pictures/video icon.png">
                   </li>
                 </ol>
               </div>
@@ -646,7 +753,7 @@
     <div class="col project project--hover-2 extracurriculars">
       <div  data-toggle="modal" data-target="#projectI">
         <div class="project__img-holder">
-          <img src="img/projects/SHAD.png" alt="" class="project__img">
+          <img src="img/pictures/SHAD.png" alt="" class="project__img">
           <div class="project__overlay">
           </div>
           <div class="project__description">
@@ -665,7 +772,7 @@
           <div class="modal-body">
             <div id="projectIsel" class="carousel slide project-slide" data-interval="false">
               <div class="carousel-inner">
-                <div class="item active"> <img src="img/projects/SHAD.png" alt="item1">
+                <div class="item active"> <img src="img/pictures/SHAD.png" alt="item1">
                 </div>
               </div>
             </div>
@@ -689,7 +796,7 @@
     <div class="col project project--hover-2 interests">
       <div  data-toggle="modal" data-target="#projectJ">
         <div class="project__img-holder">
-          <img src="img/projects/music.png" alt="" class="project__img">
+          <img src="img/pictures/music.png" alt="" class="project__img">
           <div class="project__overlay">
           </div>
           <div class="project__description">
@@ -708,7 +815,7 @@
           <div class="modal-body">
             <div id="projectJsel" class="carousel slide project-slide" data-interval="false">
               <div class="carousel-inner">
-                <div class="item active"> <img src="img/projects/travelling.png" alt="item1">
+                <div class="item active"> <img src="img/pictures/travelling.png" alt="item1">
                 </div>
               </div>
             </div>
@@ -729,7 +836,7 @@
     <div class="col project project--hover-2 extracurriculars">
       <div  data-toggle="modal" data-target="#projectK">
         <div class="project__img-holder">
-          <img src="img/projects/Watonomous.png" alt="" class="project__img">
+          <img src="img/pictures/Watonomous.png" alt="" class="project__img">
           <div class="project__overlay">
           </div>
           <div class="project__description">
@@ -748,7 +855,7 @@
           <div class="modal-body">
             <div id="projectKsel" class="carousel slide project-slide" data-interval="false">
               <div class="carousel-inner">
-                <div class="item active"> <img src="img/projects/Watonomous.png" alt="item1">
+                <div class="item active"> <img src="img/pictures/Watonomous.png" alt="item1">
                 </div>
               </div>
             </div>
@@ -770,7 +877,7 @@
     <div class="col project project--hover-2 projects">
       <div  data-toggle="modal" data-target="#projectL">
         <div class="project__img-holder">
-          <img src="img/projects/The Desk Organizer.png" alt="" class="project__img">
+          <img src="img/pictures/The Desk Organizer 2.jpg" alt="" class="project__img">
           <div class="project__overlay">
           </div>
           <div class="project__description">
@@ -789,26 +896,24 @@
           <div class="modal-body">
             <div id="projectLsel" class="carousel slide project-slide" data-interval="false">
               <div class="carousel-inner">
-                <div class="item active"> <img src="img/projects/The Desk Organizer.png" alt="item1">
+                <div class="item active"> <img src="img/pictures/The Desk Organizer 2.jpg" alt="item1">
                 </div>
-                <div class="item"><img src="img/projects/The Desk Organizer 2.jpg" alt="item2">
+                <div class="item"> <img src="img/pictures/The Desk Organizer 3.png" alt="item3">
                 </div>
-                <div class="item"> <img src="img/projects/The Desk Organizer 3.png" alt="item3">
-                </div>
-                <div class="item"> <img src="img/projects/The Desk Organizer 4.png" alt="item4">
+                <div class="item"> <img src="img/pictures/The Desk Organizer 4.png" alt="item4">
                 </div>
                 <ol class="carousel-indicators">
                   <li class="active" data-slide-to="0" data-target="#projectLsel">
-                    <img alt="" src="img/projects/The Desk Organizer.png">
+                    <img alt="" src="img/pictures/The Desk Organizer.png">
                   </li>
                   <li class="" data-slide-to="1" data-target="#projectLsel">
-                    <img alt="" src="img/projects/The Desk Organizer 2.jpg">
+                    <img alt="" src="img/pictures/The Desk Organizer 2.jpg">
                   </li>
                   <li class="" data-slide-to="2" data-target="#projectLsel">
-                    <img alt="" src="img/projects/The Desk Organizer 3.png">
+                    <img alt="" src="img/pictures/The Desk Organizer 3.png">
                   </li>
                   <li class="" data-slide-to="3" data-target="#projectLsel">
-                    <img alt="" src="img/projects/The Desk Organizer 4.png">
+                    <img alt="" src="img/pictures/The Desk Organizer 4.png">
                   </li>
                 </ol>
               </div>
@@ -836,15 +941,15 @@
     </div>    
     <!-- end project --> 
 
-    <div class="col project project--hover-2 extracurriculars">
+    <div class="col project project--hover-2 other">
       <div  data-toggle="modal" data-target="#projectM">
         <div class="project__img-holder">
-          <img src="img/projects/community service.png" alt="" class="project__img">
+          <img src="img/pictures/Coursera.png" alt="" class="project__img">
           <div class="project__overlay">
           </div>
           <div class="project__description">
-              <h3 class="project__title">Community Service Award</h3>
-	            <span class="project__category">Winner</span>
+              <h3 class="project__title">Machine Learning</h3>
+	            <span class="project__category">Course</span>
           </div>
         </div>
       </div>
@@ -858,78 +963,36 @@
           <div class="modal-body">
             <div id="projectMsel" class="carousel slide project-slide" data-interval="false">
               <div class="carousel-inner">
-                <div class="item active"> <img src="img/projects/community service.png" alt="item1">
+                <div class="item active"> <img src="img/pictures/Coursera.png" alt="item1">
                 </div>
               </div>
-              <a class="left carousel-control" href="#projectMsel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a>
-              <a class="right carousel-control" href="#projectMsel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
             <div id="carouselHeader">
-              <h3>Community Service Award</h3></div>
+              <h3>Machine Learning</h3></div>
             <div id="info">
-              <p>Community Service has always been an important part of my life. With over 600 volunteer hours in high school, I won my school's Community Service Award. Throughout that time, I have 
-                worked in food kitchens, canvassed for politicians, organized fundraisers, peer-tutored, visited long-term care centres, acted as camp counselor, and many more. Today, I continue to volunteer weekly as a tutor for Vision Exchange.
+              <p>Completed the Machine Learning course through Coursera offered by Stanford University and instructed by Andrew Ng.<br>
+                The topics that were covered included:<br><br>
+                <b>Supervised Learning:</b> linear/logistic regression, neural networks, SVM <br>
+                <b>Unsupervised Learning:</b> k-means, PCA, anomaly detection<br>
+                <b>Special application:</b> Recommender systems, large scale machine learning<br>
+                <b>Other:</b> bias/variance, regularization, evaluation of learning algorithms, learning curves, error analysis, ceiling analysis<br>
+
               </I></I>
               </p>
             </div>
           </div>
           <div class="modal-footer">
-            <button class="btn-sm close" type="button" data-dismiss="modal">Back to projects</button>
+            <button onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/TRYH4NJHNAM2','_blank')" class="btn-sm close" type="button" data-dismiss="modal">View Certificate</button>
           </div>
         </div>
       </div>
     </div>     
     <!-- end project -->
     
-    <div class="col project project--hover-2 extracurriculars">
-      <div  data-toggle="modal" data-target="#projectN">
-        <div class="project__img-holder">
-          <img src="img/projects/JA.png" alt="" class="project__img">
-          <div class="project__overlay">
-          </div>
-          <div class="project__description">
-              <h3 class="project__title">Junior Achievement Company Program</h3>
-	            <span class="project__category">Deputy CEO</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade" id="projectN">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
-          </div>
-          <div class="modal-body">
-            <div id="projectNsel" class="carousel slide project-slide" data-interval="false">
-              <div class="carousel-inner">
-                <div class="item active"> <img src="img/projects/JA.png" alt="item1">
-                </div>
-              </div>
-            </div>
-            <div id="carouselHeader">
-              <h3>Junior Achievement</h3></div>
-            <div id="info">
-              <p>Throughout high school, I developed my entrepreneurial and leadership skills as a member of the Junior Achievement Company Program and performed various roles for four vastly different companies.</p>
-              <p>As VP of Productions and Operations for Access_, I helped open up two product lines: compact key holders and pajama shirts.</p> 
-              <p>As Company Treasurer for Potful Thoughts - a girft-giving company specializing in DIY plant kits - I ensured a portion of profits were donated to Greenest City, a charity aiming to build healthy neighborhoods and improve the environment.</p>
-              <p>I served as VP of Sales for QuickThink, a company specializing in developing educational board games for children.</p>
-              <p>For diverCity, a company dedicated to promoting diversity in the Toronto are through selling tuques, I held the position of VP of CSR and Deputy CEO.</p>
-
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button onclick="window.open('https://www.jacentralontario.org/','_blank')" class="btn-sm close" type="button" data-dismiss="modal">Learn more</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end project -->
-    
     <div class="col project project--hover-2 interests">
       <div  data-toggle="modal" data-target="#projectO">
         <div class="project__img-holder">
-          <img src="img/projects/literature.png" alt="" class="project__img">
+          <img src="img/pictures/literature.png" alt="" class="project__img">
           <div class="project__overlay">
           </div>
           <div class="project__description">
@@ -948,7 +1011,7 @@
           <div class="modal-body">
             <div id="projectOsel" class="carousel slide project-slide" data-interval="false">
               <div class="carousel-inner">
-                <div class="item active"> <img src="img/projects/literature.png" alt="item1">
+                <div class="item active"> <img src="img/pictures/literature.png" alt="item1">
                 </div>
               </div>
             </div>
@@ -997,6 +1060,8 @@
      <script src='https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js'></script><script  src="./script.js"></script>
   </div>
 </section>
+
+
 
 
 <!-- Contact Section
