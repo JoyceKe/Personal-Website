@@ -969,11 +969,11 @@
             <div id="carouselHeader">
               <h3>Machine Learning</h3></div>
             <div id="info">
-              <p>Completed the Machine Learning course through Coursera offered by Stanford University and instructed by Andrew Ng.<br>
-                The topics that were covered included:<br><br>
+              <p>Completed the Machine Learning course through Coursera offered by Stanford University and instructed by Andrew Ng.<br><br>
+                The topics that were covered included:<br>
                 <b>Supervised Learning:</b> linear/logistic regression, neural networks, SVM <br>
                 <b>Unsupervised Learning:</b> k-means, PCA, anomaly detection<br>
-                <b>Special application:</b> Recommender systems, large scale machine learning<br>
+                <b>Special application:</b> recommender systems, large scale machine learning<br>
                 <b>Other:</b> bias/variance, regularization, evaluation of learning algorithms, learning curves, error analysis, ceiling analysis<br>
 
               </I></I>
