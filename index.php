@@ -541,7 +541,7 @@
     <div class="col project project--hover-2 projects">
       <div  data-toggle="modal" data-target="#projectE">
         <div class="project__img-holder">
-          <img src="img/pictures/Netflix-N-Chill.PNG" alt="" class="project__img">
+          <img src="img/pictures/Netflix-N-Chill.png" alt="" class="project__img">
           <div class="project__overlay">
           </div>
           <div class="project__description">
@@ -578,7 +578,7 @@
                   <li class="" data-slide-to="2" data-target="#projectEsel">
                       <img alt="" src="img/pictures/Netflix-N-Chill-3.png">
                   </li>
-                  <li class="" data-slide-to="2" data-target="#projectEsel">
+                  <li class="" data-slide-to="3" data-target="#projectEsel">
                     <img alt="" src="img/pictures/Netflix-N-Chill-4.png">
                 </li>
                 </ol>
@@ -600,7 +600,6 @@
         </div>
       </div>
     </div>
-
     <!-- end project -->
 
     <div class="col project project--hover-2 other">
@@ -944,7 +943,7 @@
     <div class="col project project--hover-2 other">
       <div  data-toggle="modal" data-target="#projectM">
         <div class="project__img-holder">
-          <img src="img/pictures/Coursera.png" alt="" class="project__img">
+          <img src="img/pictures/coursera.png" alt="" class="project__img">
           <div class="project__overlay">
           </div>
           <div class="project__description">
@@ -963,7 +962,7 @@
           <div class="modal-body">
             <div id="projectMsel" class="carousel slide project-slide" data-interval="false">
               <div class="carousel-inner">
-                <div class="item active"> <img src="img/pictures/Coursera.png" alt="item1">
+                <div class="item active"> <img src="img/pictures/coursera.png" alt="item1">
                 </div>
               </div>
             </div>
