@@ -83,8 +83,7 @@
         </div>
         <div class="one-third column">
           <h3>What Can I Do?</h3>
-          <p>I love writing code and working with new software! I have experience with cloud, front-end and back-end development, and virtual machines. 
-            <br>If there's something I haven't done before, that's alright! I'm always looking for something new to learn and I always love a challenge!</p>
+          <p>I love writing code and working with new software! I have experience with cloud, front-end and back-end development, and virtual machines. If there's something I haven't done before, that's alright! I'm always looking for something new to learn and I always love a challenge!</p>
         </div>
         <div class="one-third column">
           <h3>More About Me</h3>
