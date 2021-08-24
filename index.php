@@ -109,45 +109,45 @@
             <h3><font color=#907dda>Languages</font></h3>
             <div class="progressBar">
               <h4>Python</h4>
-              <div class="progressBarContainer">
+              <!-- <div class="progressBarContainer">
                 <div class="progressBarValue value-90"></div>
-              </div>
+              </div> -->
             </div>  
             <div class="progressBar">
               <h4>C++/Arduino</h4>
-              <div class="progressBarContainer">
+              <!-- <div class="progressBarContainer">
                 <div class="progressBarValue value-60"></div>
-              </div>
+              </div> -->
             </div>  
             <div class="progressBar">
               <h4>Java</h4>
-              <div class="progressBarContainer">
+              <!-- <div class="progressBarContainer">
                 <div class="progressBarValue value-35"></div>
-              </div>
+              </div> -->
             </div>
             <div class="progressBar">
               <h4>HTML</h4>
-              <div class="progressBarContainer">
+              <!-- <div class="progressBarContainer">
                 <div class="progressBarValue value-90"></div>
-              </div>
+              </div> -->
             </div>
             <div class="progressBar">
               <h4>CSS/SCSS</h4>
-              <div class="progressBarContainer">
+              <!-- <div class="progressBarContainer">
                 <div class="progressBarValue value-90"></div>
-              </div>
+              </div> -->
             </div>
             <div class="progressBar">
               <h4>Javascript</h4>
-              <div class="progressBarContainer">
+              <!-- <div class="progressBarContainer">
                 <div class="progressBarValue value-30"></div>
-              </div>
+              </div> -->
             </div>
             <div class="progressBar">
               <h4>Shell scripts</h4>
-              <div class="progressBarContainer">
+              <!-- <div class="progressBarContainer">
                 <div class="progressBarValue value-85"></div>
-              </div>
+              </div> -->
             </div>
         </div>
         <div class="three columns">
